@@ -16,19 +16,7 @@
     </style>
     <body>
         <h1>React!!!</h1>
-        <div id="root" onclick="doCount();">wait...</div>
-        <script>
-            let counter = 0;
-            let dom = document.querySelector('#root');
-            doCount();
-
-            function doCount(){
-                counter++;
-                let element = React.createElement(
-                    'p', {}, "count: " + counter
-                )
-                ReactDOM.render(element, dom)
-            }
-        </script>
+        <div id="root">wait...</div>
+        <script src="./script.js"></script>
     </body>
 </html>
